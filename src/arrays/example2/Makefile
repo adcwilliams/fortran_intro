@@ -11,4 +11,4 @@ assumed_shape: $(OBJ)
 .PHONY: clean
 
 clean:
-	rm *.o *.mod main
+	rm *.o *.mod assumed_shape

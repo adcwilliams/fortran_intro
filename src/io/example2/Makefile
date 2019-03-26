@@ -11,4 +11,4 @@ readfile: $(OBJ)
 .PHONY: clean
 
 clean:
-	rm *.o *.mod main
+	rm *.o *.mod readfile

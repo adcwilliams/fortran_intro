@@ -8,7 +8,7 @@ OBJ=efficient.o inefficient.o
 all: efficient inefficient
 
 clean:
-	rm *.o *.mod main
+	rm *.o *.mod efficient inefficient
 
 %.o: %.f90
 	$(FC) -c -o $@ $< $(FFLAGS)

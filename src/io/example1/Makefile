@@ -11,4 +11,4 @@ readform: $(OBJ)
 .PHONY: clean
 
 clean:
-	rm *.o *.mod main
+	rm *.o *.mod readform
