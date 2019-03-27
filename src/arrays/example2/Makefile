@@ -1,6 +1,6 @@
 FC=gfortran
 FFLAGS=-g
-OBJ=assumed_shape.o array_handling.o
+OBJ=array_handling.o assumed_shape.o
 
 %.o: %.f90
 	$(FC) -c -o $@ $< $(FFLAGS)
