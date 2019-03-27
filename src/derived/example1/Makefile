@@ -1,6 +1,6 @@
 FC=gfortran
 FFLAGS=-g
-OBJ=typedef.o cars.o process.o
+OBJ=typedef.o process.o cars.o
 
 %.o: %.f90
 	$(FC) -c -o $@ $< $(FFLAGS)
